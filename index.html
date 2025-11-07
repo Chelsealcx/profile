@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>个人简介 - 你的名字</title>
+
+<style>
+    body {
+        font-family: "Microsoft YaHei", sans-serif;
+        margin: 0;
+        background: #f8f9fa;
+        color: #333;
+        line-height: 1.7;
+    }
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: #ffffff;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    header img {
+        width: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+    .section {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+    .section h2 {
+        font-size: 22px;
+        border-left: 4px solid #4a5568;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .item {
+        margin-bottom: 18px;
+    }
+    .item-title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .timeline {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    /* 作品集区域卡片设计 */
+    .works {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    .work-card {
+        background: white;
+        padding: 18px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        transition: 0.25s;
+    }
+    .work-card:hover {
+        border-color: #4a5568;
+        transform: translateY(-4px);
+    }
+    footer {
+        text-align: center;
+        padding: 30px;
+        margin-top: 50px;
+        color: #777;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <img src="images/avatar.jpg" alt="头像（替换为你自己的.jpg）" />
+    <h1>你的名字</h1>
+    <p>一句简短介绍（如：心理学本科 | 研究方向：社会行为与情绪调节）</p>
+    <p>Email: youremail@example.com | GitHub: <a href="#" target="_blank">YourName</a></p>
+</header>
+
+<div class="section">
+    <h2>教育经历</h2>
+    <div class="item">
+        <div class="item-title">某某大学 心理学本科</div>
+        <div class="timeline">2021 - 2025</div>
+        <p>研究兴趣方向、课程亮点、科研训练等简述。</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>实习/工作经历</h2>
+    <div class="item">
+        <div class="item-title">某机构 / 心理咨询助理</div>
+        <div class="timeline">2024.07 - 2024.09</div>
+        <p>描述你做了什么、负责什么、学到了什么。</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>研究 / 学习项目（作品集）</h2>
+    <div class="works">
+
+        <div class="work-card">
+            <div class="item-title">项目名称 A</div>
+            <div class="timeline">2024</div>
+            <p>一句话总结研究目的 + 方法或成果。</p>
+            <a href="#" target="_blank">查看详情</a>
+        </div>
+
+        <div class="work-card">
+            <div class="item-title">项目名称 B</div>
+            <div class="timeline">2023</div>
+            <p>说明你在其中承担的角色。</p>
+            <a href="#" target="_blank">查看详情</a>
+        </div>
+
+        <div class="work-card">
+            <div class="item-title">课程论文 / 报告</div>
+            <div class="timeline">2022-2024</div>
+            <p>可放论文、课堂项目、调研报告摘要等。</p>
+            <a href="#" target="_blank">文档/展示链接</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2025 Your Name
+</footer>
+
+</body>
+</html>
